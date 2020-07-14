@@ -1,5 +1,8 @@
 import React from "react";
 
+/**
+ *  arr[ 1, 2, 3] o / p: 1 + 2 =3 the pair should have minimum sum
+ */
 export default class FindMinimumSumOfPair extends React.Component {
   getMinimumSumOfPair = arr => {
     let arrLength = arr.length;
@@ -20,7 +23,7 @@ export default class FindMinimumSumOfPair extends React.Component {
   };
 
   render() {
-    let arr = [1, 3, 8, 5];
+    let arr = [1, 2, 8, 5];
     return <div>{this.getMinimumSumOfPair(arr)}</div>;
   }
 }
